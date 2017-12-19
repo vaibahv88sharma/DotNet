@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://webapp01d-doc/wcfSAM/StudentAttendance.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/BKIWCFService" />
+  <xs:element name="CreateHEATTicket">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wsClientUsername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="wsClientPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="staffLoginName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="staffNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CRN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="teamCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateHEATTicketResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/BKIWCFService" minOccurs="0" name="CreateHEATTicketResult" nillable="true" type="q1:Util.ResultObject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateHEATTicketStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wsClientUsername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="wsClientPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ServiceReqNumb" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateHEATTicketStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/BKIWCFService" minOccurs="0" name="UpdateHEATTicketStatusResult" nillable="true" type="q2:Util.ResultObject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

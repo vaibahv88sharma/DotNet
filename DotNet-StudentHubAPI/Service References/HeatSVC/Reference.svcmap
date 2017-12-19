@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bf0e37a6-4880-469f-99f3-10a107904722" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webapp01d-doc/wcfSAM/CourseApplication.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CourseApplication.disco" MetadataType="Disco" ID="fe2510d4-256b-4dc2-b0c7-e3917a1a543a" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?disco" />
+    <MetadataFile FileName="CourseApplication.xsd" MetadataType="Schema" ID="3197b8cc-8239-4088-a89c-a080fa0cf51a" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?xsd=xsd4" />
+    <MetadataFile FileName="CourseApplication1.xsd" MetadataType="Schema" ID="1602cdc6-f972-44c4-8ccc-9292fe763743" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?xsd=xsd2" />
+    <MetadataFile FileName="CourseApplication2.xsd" MetadataType="Schema" ID="a1c296e4-12b7-4955-9196-cf8b73fc2949" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?xsd=xsd3" />
+    <MetadataFile FileName="CourseApplication3.xsd" MetadataType="Schema" ID="84949ddb-b38a-4201-b331-d3268cd2782e" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?xsd=xsd0" />
+    <MetadataFile FileName="CourseApplication4.xsd" MetadataType="Schema" ID="a6cc3076-752b-43a6-86b1-9331263b6808" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?xsd=xsd1" />
+    <MetadataFile FileName="CourseApplication.wsdl" MetadataType="Wsdl" ID="8422462f-ede4-4110-b40c-3ce859ff5229" SourceId="1" SourceUrl="http://webapp01d-doc/wcfSAM/CourseApplication.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
